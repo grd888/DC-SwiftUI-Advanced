@@ -13,6 +13,8 @@
 		A55EB1432C8C9453009C589B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55EB1422C8C9453009C589B /* Preview Assets.xcassets */; };
 		A55EB1452C8C9453009C589B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55EB1442C8C9453009C589B /* Persistence.swift */; };
 		A55EB1482C8C9453009C589B /* DC_SwiftUI_Advanced.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A55EB1462C8C9453009C589B /* DC_SwiftUI_Advanced.xcdatamodeld */; };
+		A55EB1512C8C94EF009C589B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55EB14E2C8C94EF009C589B /* ImagePicker.swift */; };
+		A55EB1522C8C94EF009C589B /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55EB14F2C8C94EF009C589B /* VisualEffectBlur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		A55EB1422C8C9453009C589B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A55EB1442C8C9453009C589B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A55EB1472C8C9453009C589B /* DC_SwiftUI_Advanced.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DC_SwiftUI_Advanced.xcdatamodel; sourceTree = "<group>"; };
+		A55EB14E2C8C94EF009C589B /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A55EB14F2C8C94EF009C589B /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		A55EB13A2C8C9451009C589B /* DC SwiftUI Advanced */ = {
 			isa = PBXGroup;
 			children = (
+				A55EB1502C8C94EF009C589B /* Helpers */,
 				A55EB13B2C8C9451009C589B /* DC_SwiftUI_AdvancedApp.swift */,
 				A55EB13D2C8C9451009C589B /* ContentView.swift */,
 				A55EB13F2C8C9453009C589B /* Assets.xcassets */,
@@ -72,6 +77,16 @@
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
+		};
+		A55EB1502C8C94EF009C589B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A55EB14E2C8C94EF009C589B /* ImagePicker.swift */,
+				A55EB14F2C8C94EF009C589B /* VisualEffectBlur.swift */,
+			);
+			name = Helpers;
+			path = "Advanced SwiftUI - Resources/Helpers";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -145,6 +160,8 @@
 			files = (
 				A55EB1482C8C9453009C589B /* DC_SwiftUI_Advanced.xcdatamodeld in Sources */,
 				A55EB1452C8C9453009C589B /* Persistence.swift in Sources */,
+				A55EB1512C8C94EF009C589B /* ImagePicker.swift in Sources */,
+				A55EB1522C8C94EF009C589B /* VisualEffectBlur.swift in Sources */,
 				A55EB13E2C8C9451009C589B /* ContentView.swift in Sources */,
 				A55EB13C2C8C9451009C589B /* DC_SwiftUI_AdvancedApp.swift in Sources */,
 			);
@@ -205,7 +222,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -262,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
